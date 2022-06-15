@@ -6,3 +6,4 @@
 - Vite
 - HeadlessUI
 - TailwindCSS
+- Axios
