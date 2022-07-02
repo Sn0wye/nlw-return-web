@@ -1,6 +1,14 @@
-import React from "react";
-import { Widget } from "./components/Widget";
+import React from 'react';
+import { Home } from './components/Home';
+import { Navbar } from './components/Navbar';
+import { Widget } from './components/Widget';
 
 export function App() {
-  return <Widget />;
+  return (
+    <>
+      <Navbar />
+      <Home />
+      <Widget />
+    </>
+  );
 }
